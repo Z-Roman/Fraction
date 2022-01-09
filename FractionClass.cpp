@@ -117,16 +117,18 @@ void FractionClass::Subtraction(int numerator_1, int denominator_1, int numerato
 	ShowFraction();
 }
 
-
-
-
-
-
-
-
-
-/*Float FractionClass::ValueFraction()
+void FractionClass::Mult(int numerator_1, int denominator_1, int numerator_2, int denominator_2)
 {
-	return float(GetNumer()) / GetDenum();
+	SetNumer(numerator_1 * numerator_2);
+	SetDenom(denominator_1 * denominator_2);
+	Reduction();
+	ShowFraction();
 }
-*/
+
+void FractionClass::Division(int numerator_1, int denominator_1, int numerator_2, int denominator_2)
+{
+	SetNumer(numerator_1 * denominator_2);
+	SetDenom(denominator_1 * numerator_2);
+	Reduction();
+	ShowFraction();
+}

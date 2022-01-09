@@ -11,7 +11,6 @@ int main()
 	a.ShowFraction();
 	a.SetNumer(180);
 	a.SetDenom(324);
-
 	a.Print();
 	a.ShowFraction();
 	a.Reduction();

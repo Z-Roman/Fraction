@@ -40,16 +40,20 @@ public:
 
 	void Print();
 
-	void ShowFraction();
+	void ShowFraction(); //Показать дробь
 
-	float ValueFraction();
+	float ValueFraction(); //десятичное значение дроби
 
-	void Reduction();
+	void Reduction(); //сокращение дроби
 
-	void Comparison(int numerator_1, int denominator_1, int numerator_2, int denominator_2);
+	void Comparison(int numerator_1, int denominator_1, int numerator_2, int denominator_2); //сравнение дробей
 
-	void Addition(int numerator_1, int denominator_1, int numerator_2, int denominator_2);
+	void Addition(int numerator_1, int denominator_1, int numerator_2, int denominator_2); //сумма дробей
 
-	void Subtraction(int numerator_1, int denominator_1, int numerator_2, int denominator_2);
+	void Subtraction(int numerator_1, int denominator_1, int numerator_2, int denominator_2); //разница между дробями
+
+	void Mult(int numerator_1, int denominator_1, int numerator_2, int denominator_2); //умножение дробей
+
+	void Division(int numerator_1, int denominator_1, int numerator_2, int denominator_2); //деление дробей
 };
 
