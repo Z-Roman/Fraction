@@ -11,3 +11,8 @@ FractionClass::FractionClass(int numer, int denom)
 	this->numer = numer;
 	this->denom = denom;
 }
+
+FractionClass::FractionClass(float decimal)
+{
+	this->decimal = decimal;
+}
